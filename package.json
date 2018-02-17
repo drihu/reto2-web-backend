@@ -1,0 +1,15 @@
+{
+  "name": "reto2-web-backend",
+  "version": "0.1.0",
+  "description": "CoreUpgrade 2018: Reto 2 Web - Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node contact.js -h",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ricardo Huamani <drihupp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
