@@ -79,10 +79,7 @@ const argv = yargs
       console.log('Contact was removed');
     });
   })
-  // .alias('f', 'file')
-  // .nargs('f', 1)
-  // .describe('f', 'Load a file')
-  // .demandOption(['f'])
+
   .options('name')
   .options('number')
   .help('h')
